@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    padding: 18px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left,
+.right {
+    display: flex;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    font-size: 32px;
+    background: white;
+    /* this removes the line under the links */
+    text-decoration: none;
+  }
